@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Building, Briefcase, Users } from 'lucide-react';
+import { Building, Briefcase } from 'lucide-react';
 import CTASection from '@/components/CTASection';
 
 const PRICING = {
@@ -147,7 +147,7 @@ export default function CompanyFormationCalculator() {
             {showResult && (
               <div className="bg-primary-50 border-2 border-primary-200 rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-dark-900 mb-4">Cost Breakdown</h3>
-                
+
                 <div className="space-y-3 mb-6 border-b border-primary-200 pb-6">
                   <div className="flex justify-between">
                     <span className="text-dark-700">Company Setup:</span>
