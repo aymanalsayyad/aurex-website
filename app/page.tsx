@@ -1,5 +1,16 @@
-import { ArrowRight, Download, TrendingUp, Award, Building2, Briefcase, FileCheck } from 'lucide-react';
 import Link from 'next/link';
+import HeroSection from '@/components/homepage/HeroSection';
+import BenefitsSection from '@/components/homepage/BenefitsSection';
+import JourneySection from '@/components/homepage/JourneySection';
+import CalculatorsSection from '@/components/homepage/CalculatorsSection';
+import GuidesSection from '@/components/homepage/GuidesSection';
+import QuizzesSection from '@/components/homepage/QuizzesSection';
+import StatsSection from '@/components/homepage/StatsSection';
+import ServicesSection from '@/components/homepage/ServicesSection';
+import CTASection from '@/components/CTASection';
+
+export const metadata = {
+  // ... rest of fileimport Link from 'next/link';
 import HeroSection from '@/components/homepage/HeroSection';
 import BenefitsSection from '@/components/homepage/BenefitsSection';
 import JourneySection from '@/components/homepage/JourneySection';
