@@ -1,4 +1,4 @@
-import { CheckCircle, Clock, FileCheck, Award, ArrowRight } from 'lucide-react';
+import { CheckCircle, Clock, FileCheck, Award } from 'lucide-react';
 import Link from 'next/link';
 import CTASection from '@/components/CTASection';
 
