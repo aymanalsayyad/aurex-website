@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { Building, Briefcase } from 'lucide-react';
 import CTASection from '@/components/CTASection';
 
@@ -37,7 +38,6 @@ export default function CompanyFormationCalculator() {
 
   return (
     <>
-      {/* Hero */}
       <section className="section-padding bg-gradient-to-b from-primary-50 to-white">
         <div className="container-custom text-center">
           <span className="badge">INSTANT CALCULATION</span>
@@ -48,11 +48,9 @@ export default function CompanyFormationCalculator() {
         </div>
       </section>
 
-      {/* Calculator */}
       <section className="section-padding bg-white">
         <div className="container-custom max-w-2xl mx-auto">
           <div className="card">
-            {/* Business Type */}
             <div className="mb-8">
               <label className="block text-sm font-semibold text-dark-900 mb-4">
                 Business Type
@@ -85,7 +83,6 @@ export default function CompanyFormationCalculator() {
               </div>
             </div>
 
-            {/* Number of Visas */}
             <div className="mb-8">
               <label className="block text-sm font-semibold text-dark-900 mb-4">
                 Number of Visas: <span className="text-primary-600">{visas}</span>
@@ -104,7 +101,6 @@ export default function CompanyFormationCalculator() {
               </div>
             </div>
 
-            {/* Office Type */}
             <div className="mb-8">
               <label className="block text-sm font-semibold text-dark-900 mb-4">
                 Office Space
@@ -135,7 +131,6 @@ export default function CompanyFormationCalculator() {
               </div>
             </div>
 
-            {/* Calculate Button */}
             <button
               onClick={() => setShowResult(true)}
               className="btn-primary w-full mb-6"
@@ -143,7 +138,6 @@ export default function CompanyFormationCalculator() {
               Calculate Cost
             </button>
 
-            {/* Result */}
             {showResult && (
               <div className="bg-primary-50 border-2 border-primary-200 rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-dark-900 mb-4">Cost Breakdown</h3>
@@ -178,19 +172,18 @@ export default function CompanyFormationCalculator() {
                   <p>✓ Expert support included</p>
                 </div>
 
-                
+                <Link
                   href="/contact"
-                  className="btn-primary w-full text-center block"
+                  className="btn-primary w-full text-center inline-block"
                 >
                   Get Detailed Quote
-                </a>
+                </Link>
               </div>
             )}
           </div>
         </div>
       </section>
 
-      {/* CTA */}
       <CTASection
         badge="NEED HELP?"
         title="Get Professional Guidance"
