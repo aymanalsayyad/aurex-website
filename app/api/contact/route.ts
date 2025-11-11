@@ -47,7 +47,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Send email to admin
-    const adminEmailResult = await resend.emails.send({
+    await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL!,
       to: process.env.ADMIN_EMAIL!,
       subject: `New Contact Form Submission - ${service || 'General Inquiry'}`,
