@@ -1,6 +1,6 @@
 'use client';
 
-import { Download, FileText } from 'lucide-react';
+import { Download } from 'lucide-react';
 import Link from 'next/link';
 
 export default function GuidesSection() {
