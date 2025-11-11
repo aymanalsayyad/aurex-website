@@ -24,7 +24,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Save to Supabase
-    cconst { error: dbError } = await supabase
+    const { error: dbError } = await supabase
       .from('contacts')
       .insert([
         {
