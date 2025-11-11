@@ -78,11 +78,11 @@
   }
 
   .input-field {
-    @apply w-full px-4 py-3 rounded-lg border border-dark-200 bg-white text-dark-900 placeholder-dark-400 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent transition-ring;
+  @apply w-full px-4 py-3 rounded-lg border border-dark-200 bg-white text-dark-900 placeholder-dark-400 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent transition-all;
   }
 
   .textarea-field {
-    @apply w-full px-4 py-3 rounded-lg border border-dark-200 bg-white text-dark-900 placeholder-dark-400 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent resize-none transition-ring;
+  @apply w-full px-4 py-3 rounded-lg border border-dark-200 bg-white text-dark-900 placeholder-dark-400 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent resize-none transition-all;
   }
 
   .section-title {
